@@ -1,0 +1,31 @@
+/* About Me Section */
+
+.about-section{
+    padding: 2%;
+    flex-direction: column; /* Add this */
+}
+
+.about-image-container img {
+    width: 50%;
+}
+
+.about-image-container {
+    width: 30%;
+}
+
+.about-description-container {
+    width: 70%;
+}
+
+.about-description-container p{
+    width:90%;
+    margin: 2rem 0;
+
+}
+
+.skills-list {
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 1rem;
+    margin: 2rem 0;
+}
